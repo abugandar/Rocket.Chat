@@ -1,3 +1,13 @@
+
+
+.upload-progress  {
+    position: relative;
+    z-index: 3;
+    float: left;
+     
+}
+
+
 .rtl {
 	direction: rtl;
 
