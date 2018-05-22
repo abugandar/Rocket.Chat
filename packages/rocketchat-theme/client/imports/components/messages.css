@@ -1,3 +1,55 @@
+
+a{  color: white;}
+.mention-link {  color: white;}
+a.mention-link {  color: white;}
+.attachment-author{  color: white;}
+
+.attachment-author .time{  color: white;}
+
+div{
+  padding-top:0.3px;
+font-size:15.3px;
+}
+
+ .body  {
+   background-color: #4f4f4f;
+    direction: rtl;
+  height: auto;
+ display: inline-block;
+  border-color: transparent #f3f4f5 transparent transparent;
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+
+ .attachment-title   {
+   padding :4px;
+   margin-right:41px;
+   background-color: white;
+  -webkit-border-radius: 5px 20px 20px 5px;
+   border-radius: 5px 20px 20px 5px;
+}
+
+.body:nth-child(1) {
+ -webkit-border-radius: 20px 20px 20px 0;
+  border-radius: 20px 20px 20px 0;
+}
+
+ .body:not(:first-child) {
+   -webkit-border-radius: 5px 20px 20px 5px;
+   border-radius: 5px 20px 20px 5px;
+}
+
+.body:last-child {
+  -webkit-border-radius: 0 20px 20px 20px;
+  border-radius: 0 20px 20px 20px;
+}
+.body:only-of-type {
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+
 .messages-container-wrapper {
 	position: relative;
 }
